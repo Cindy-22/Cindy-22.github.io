@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cindy's first page</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
         h1{
             font-family: "Modern Love", fantasy;
@@ -35,9 +36,35 @@
         .special{
             background-color:aliceblue;
         }
+        #square{
+            width: 150px;
+            height: 150px;
+            background-color:rgb(255, 177, 216);
+            margin: auto;
+            position: relative;
+            left: 1000px;
+         
+            rotate: -45deg;
+            animation: rotate 2s infinite alternate ease-in-out, slide 2s forwards ease-in-out;
+        }
+        @keyframes rotate {
+            to {
+                rotate: 45deg;
+            }
+        }
+        @keyframes slide {
+            to {
+                left: 0;
+            }
+        }
     </style>
 </head>
 <body>
+    <ul class="nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Me</a></li>
+    </ul>
     <h1>Welcome!!!</h1><br>
     <a href="https://www.canva.com/" target="_blank" class="main-content">Canva</a>
     <!--new tags: table, youtube, google maps-->
@@ -66,6 +93,8 @@
         <p class="main-content">Strawberry is the <span id="pink-text">best</span></p> 
         <p style="text-align: right; font-size: 30px;">Rose milk tea taste amazing.</p>
     </div>
-   
+   <div id="square">
+
+   </div>
 </body>
 </html>
