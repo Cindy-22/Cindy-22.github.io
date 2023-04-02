@@ -1,0 +1,30 @@
+body{
+    background-color:whitesmoke;
+    font-family:"Candara Light";
+}
+h1 {
+    text-align: center;
+}
+.nav{
+    list-style-type: none;
+    background-color: rgb(248, 210, 202);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li{
+    float:left;
+}
+ul.nav li a{
+    display:block;
+    padding: 8px 16px;
+    color:black;
+    text-decoration: none;
+}
+ul.nav a:hover{
+    background-color: rgb(250, 182, 182);
+    color:black;
+}
+.active {
+    background-color: rgb(250, 182, 182);
+}

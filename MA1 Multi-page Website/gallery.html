@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .gallery {
+            margin: 10px auto;
+            height: 400px;
+            width: auto;
+            animation:slide 2s forwards ease-in-out;
+        }
+        @keyframes slide {
+            0% {
+                transform: translateX(-100%)
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+        .mochi{
+            margin: 10px auto;
+            height: 300px;
+            width: auto;
+            animation:slide 2s forwards ease-in-out;
+        }
+        .credit {
+            color: grey;
+            font-size: small;
+        }
+    
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <h1>Gallery</h1>
+    <p>Reading and learning about the different types of dessert are pretty important, but a big part of food is how it is presented. Below are pictures of the desserts introduced.</p>
+    <h3>Boba Milk Tea</h3>
+    <img class="gallery" src="Images/brown-sugar-boba.jpg" alt="Brown sugar boba"><img class="gallery" src="Images/milk-tea-drink.jpg" alt="milk tea drink"><img class="gallery" src="Images/rose-milk-tea.jpg" alt="rose milk tea"><img class="gallery" src="Images/taro-milk-tea.jpg" alt="taro milk tea">
+    <p>As can be seen here, many flavour of this delicious drink are available other than the traditional black milk tea. The flavours here include: brown sugar, rose, and taro. <span class="credit">(The third and fourth images included are not my own and are from Veggiekins and Sift & Simmer, respectively.)</span></p>
+    <h3>Grass Jelly</h3>
+    <img class="gallery" src="Images/grass-jelly-with-taro-balls-and-red-bean.jpg" alt="grass jelly with taro balls and red bean"><img  class="gallery" src="Images/grass-jelly-dessert-with-soy-milk-and-ice.jpg" alt="grass-jelly-dessert-with-soy-milk-and-ice">
+    <p>Grass jelly is often served with milk and other popular toppings, such as red bean and taro balls. <span class="credit">(Images are from Instagram.)</span></p>
+    <h3>Douhua</h3>
+    <img class="gallery" src="Images/douhua-with-boba-and-taro-balls.jpg" alt="douhua-with-boba-and-taro-balls"><img class="gallery" src="Images/douhua-with-boba-and-green-bean.jpg" alt="douhua-with-boba-and-green-bean">
+    <p>Douhua can be eaten in a similar way as grass jelly, wich allows more a lot of freedom in how you choose to eat this delicious treat. <span class="credit">(Images are from Eric tries it)</span></p>
+    <h3>Mochi</h3>
+    <img class="mochi" src="Images/colorful-mochi.jpg" alt="colorful-mochi"><img class="mochi" src="Images/red-bean-mochi.jpg" alt="red-bean-mochi">
+    <p>The dough of the mochi is often colored to make them look prettier and more colorful. <span class="credit">(Images are from tasteatlas)</span></p>
+    <h3>Purin</h3>
+    <img class="gallery" src="Images/purin-in-a-cup.jpg" alt="purin-in-a-cup"><img class="gallery" src="Images/purin-with-spoon.jpg" alt="putin in a plate">
+    <p>Sometimes, the caramel is placed at the bottom, while other times it is poured over the top. <span class="credit">(First picture is from Just One Cookbook, while the second one is from Tiffy Cooks)</span></p>
+</body>
+</html>

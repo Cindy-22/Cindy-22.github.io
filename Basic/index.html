@@ -26,8 +26,7 @@
             color:black
         }
         .centered-img{
-            display:block;
-            margin: 10px auto;
+            display: block;
             width: 50%;
         }
         #pink-text{
@@ -55,6 +54,29 @@
         @keyframes slide {
             to {
                 left: 0;
+            }
+        }
+        #animation_p{
+            animation: move_left_to_right 5s linear infinite;
+        }
+        @keyframes move_left_to_right {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+        #moving_image {
+            animation: move_then_fade 5s linear forwards;
+        }
+        @keyframes move_then_fade {
+            0% {
+                transform: translateX(-100%)
+            }
+            100% {
+                transform: translateX(100%);
+                opacity: 0;
             }
         }
     </style>
@@ -87,7 +109,7 @@
     </table>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tnp5ZAE8hrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main-content"></iframe><br>
     <iframe class="main-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86085.21686673375!2d-122.26408133749999!3d47.6035196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906dd19237dd17%3A0x8a02b30f5486077b!2sMeet%20Fresh!5e0!3m2!1sen!2sus!4v1679435096158!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
-    <img src="images/food.jpg" alt="Strawberry Sandwich" class="centered-img">
+    <img src="images/food.jpg" alt="Strawberry Sandwich" class="centered-img" id="moving_image">
     <div class="special">
         <p class="main-content">I love desserts.</p>
         <p class="main-content">Strawberry is the <span id="pink-text">best</span></p> 
@@ -96,5 +118,6 @@
    <div id="square">
 
    </div>
+   <p id="animation_p">This will move left to right.</p>
 </body>
 </html>
