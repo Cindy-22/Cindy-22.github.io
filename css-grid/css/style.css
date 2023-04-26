@@ -1,0 +1,144 @@
+body{
+    background-color: mintcream;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-gap: 10px;
+}
+
+.grid-item{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navmenu{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    font-size: large;
+}
+
+.nav{
+    list-style-type: none;
+    background-color: rgb(227, 248, 228);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li{
+    float:left;
+}
+ul.nav li a{
+    display:block;
+    padding: 8px 16px;
+    color:black;
+    text-decoration: none;
+}
+ul.nav a:hover{
+    background-color: rgb(158, 219, 158);
+    color:black;
+}
+
+.main-image{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.main1{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.main2{
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+.sidenav{
+    grid-column: 3;
+    grid-row: 3 / span 3;
+    background-color: darkred;
+}
+.support-section1{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: red;
+}
+.support-section2{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: red;
+}
+
+
+.grid-container2{
+    display:grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-gap: 10px;
+}
+
+.grid-item2{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.main-image2{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.main1-2{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.main2-2{
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+.sidenav2{
+    grid-column: 3;
+    grid-row: 3 / span 3;
+    background-color: rgb(227, 248, 228);
+}
+
+.support-section1-2{
+    grid-column: 1;
+    grid-row: 4;
+}
+.support-section2-2{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.navmenu2{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    font-size: large;
+}
+
+.nav2{
+    list-style-type: none;
+    background-color: rgb(227, 248, 228);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav2 li{
+    float:left;
+}
+ul.nav2 li a{
+    display:block;
+    padding: 8px 16px;
+    color:black;
+    text-decoration: none;
+}
+ul.nav2 a:hover{
+    background-color: rgb(158, 219, 158);
+    color:black;
+}
