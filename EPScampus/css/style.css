@@ -1,0 +1,35 @@
+body {
+    background-color:snow;
+}
+.nav{
+    list-style-type: none;
+    background-color: rgb(25, 39, 81);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li{
+    float:left;
+}
+ul.nav li a{
+    display:block;
+    padding: 8px 16px;
+    color:white;
+    text-decoration: none;
+}
+ul.nav a:hover{
+    background-color:rgb(255, 184, 6);
+    color:white;
+}
+.active {
+    background-color:rgb(255, 184, 6);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(25, 39, 81);
+    color: white;
+    text-align: center;
+  }

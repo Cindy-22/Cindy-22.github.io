@@ -9,16 +9,12 @@ body{
 }
 
 .grid-item{
-    background-color: lightblue;
-    text-align: center;
-    font-size: 30px;
     padding: 20px;
 }
 
 .navmenu{
     grid-column: 1 / span 3;
     grid-row: 1;
-    font-size: large;
 }
 
 .nav{
@@ -76,34 +72,32 @@ ul.nav a:hover{
 
 .grid-container2{
     display:grid;
-    grid-template-columns: 35% 35% 30%;
+    grid-template-columns: 50% 50%;
     grid-gap: 10px;
 }
 
 .grid-item2{
-    text-align: center;
-    font-size: 30px;
     padding: 20px;
 }
 
 .main-image2{
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     grid-row: 2;
 }
 
 .main1-2{
-    grid-column: 1 / span 2;
+    grid-column: 1;
     grid-row: 3;
 }
 
 .main2-2{
-    grid-column: 1 / span 2;
+    grid-column: 1;
     grid-row: 5;
 }
 
 .sidenav2{
-    grid-column: 3;
-    grid-row: 3 / span 3;
+    grid-column: 2;
+    grid-row: 3;
     background-color: rgb(227, 248, 228);
 }
 
@@ -117,9 +111,8 @@ ul.nav a:hover{
 }
 
 .navmenu2{
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     grid-row: 1;
-    font-size: large;
 }
 
 .nav2{
