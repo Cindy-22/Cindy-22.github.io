@@ -1,0 +1,31 @@
+body {
+    background-color: snow;
+}
+h1, h2, h3 {
+    font-family: "zhi-mang-xing", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(138,51,36);
+}
+.chinese {
+    font-family: "source-han-serif-tc", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p, a,.btn {
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.food-image{
+    width: 175px;
+    height: auto;
+    margin:auto;
+}
+.btn{
+    background-color:rgb(153,117,112);
+    color:white;
+}
+.menu-item{
+    margin:5px;
+}
