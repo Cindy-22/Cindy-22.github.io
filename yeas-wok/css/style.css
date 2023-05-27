@@ -12,7 +12,7 @@ h1, h2, h3 {
     font-weight: 400;
     font-style: normal;
 }
-p, a,.btn {
+p, a,.btn, table {
     font-family: "baskerville-urw", serif;
     font-weight: 400;
     font-style: normal;
@@ -28,4 +28,7 @@ p, a,.btn {
 }
 .menu-item{
     margin:5px;
+}
+.menu-food-image{
+    width: 250px
 }
